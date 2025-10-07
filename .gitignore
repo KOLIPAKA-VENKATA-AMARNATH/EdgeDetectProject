@@ -1,0 +1,24 @@
+# Android
+*.iml
+.gradle/
+/local.properties
+/.idea/
+/.cxx/
+/build/
+/captures/
+.externalNativeBuild/
+
+# Gradle
+.gradle/
+/build/
+
+# NDK
+obj/
+
+# Web
+web/node_modules/
+web/dist/
+
+# Misc
+.DS_Store
+thumbs.db
