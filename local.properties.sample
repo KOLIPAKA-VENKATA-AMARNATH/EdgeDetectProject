@@ -1,0 +1,4 @@
+# Copy this file to local.properties and set paths for your machine
+sdk.dir=C:/Users/USERNAME/AppData/Local/Android/Sdk
+ndk.dir=C:/Users/USERNAME/AppData/Local/Android/Sdk/ndk/26.1.10909125
+opencvsdk.dir=C:/dev/OpenCV-android-sdk
