@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Edge Detect Web Viewer</title>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; background: #111; color: #eee; }
+    header { padding: 12px 16px; background: #222; position: sticky; top: 0; }
+    .stats { display: flex; gap: 16px; }
+    main { display: grid; place-items: center; height: calc(100vh - 56px); }
+    img { max-width: 90vw; max-height: 80vh; border: 1px solid #333; box-shadow: 0 2px 12px rgba(0,0,0,.5); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="stats">
+      <div>FPS: <span id="fps">--</span></div>
+      <div>Resolution: <span id="res">--</span></div>
+    </div>
+  </header>
+  <main>
+    <img id="frame" alt="Processed Frame" />
+  </main>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
